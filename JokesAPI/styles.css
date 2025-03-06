@@ -1,0 +1,60 @@
+/* Import Google Font for a Clean Look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Basic Reset for Consistent Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the Body - Center Everything */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container for the Joke Box */
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+/* Heading Style */
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Joke Display Box */
+p {
+    font-size: 18px;
+    color: #555;
+    min-height: 50px; /* Ensures text area remains stable */
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s; /* Smooth hover effect */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #0056b3;
+}
