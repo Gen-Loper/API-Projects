@@ -36,5 +36,6 @@ API - http://api.football-data.org/v4/competitions/
 11. Dogs API
 Docs - https://dog.ceo/dog-api/documentation/
 API - https://dog.ceo/api/breeds/image/random
+
 Explore More APIs -
 https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
